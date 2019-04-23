@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{0A330045-CEE5-3EE8-C952-7AACB99453EF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scipts/Shooting.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player Scipts/PlayerMover.cs" Line="67" Column="27" />
+      <File FileName="Assets/Scripts/Enemy Scripts/RangedNav.cs" Line="48" Column="35" />
+      <File FileName="Assets/Scripts/Enemy Scripts/ProjectileMover.cs" Line="17" Column="9" />
+      <File FileName="Assets/Scripts/Enemy Scripts/MeleeHurt.cs" Line="29" Column="40" />
+      <File FileName="Assets/Scripts/Enemy Scripts/ShotSpawner.cs" Line="11" Column="9" />
+      <File FileName="Assets/Scripts/Enemy Scripts/MeleeNav.cs" Line="9" Column="33" />
+      <File FileName="Assets/Scripts/Enemy Scripts/MeleeAttack.cs" Line="19" Column="13" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Exploder.cs" Line="25" Column="25" />
+      <File FileName="Assets/Scripts/Enemy Scripts/GasExplosion.cs" Line="16" Column="48" />
+      <File FileName="Assets/Scripts/Enemy Scripts/DamageCalculations.cs" Line="59" Column="42" />
+      <File FileName="Assets/Scripts/Player Scipts/Shooting.cs" Line="29" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

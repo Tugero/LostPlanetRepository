@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{24D5DF10-82BD-A43E-3F7E-7F3979CE1D8A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/World Scripts/Loadlevel.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player Scipts/PlayerMover.cs" Line="173" Column="13" />
+      <File FileName="Assets/Scripts/Enemy Scripts/MeleeHurt.cs" Line="33" Column="73" />
+      <File FileName="Assets/Scripts/Enemy Scripts/MeleeNav.cs" Line="49" Column="17" />
+      <File FileName="Assets/Scripts/Player Scipts/Shooting.cs" Line="15" Column="57" />
+      <File FileName="Assets/Scripts/World Scripts/LevelTransition.cs" Line="28" Column="70" />
+      <File FileName="Assets/Scripts/Enemy Scripts/MeleeAttack.cs" Line="15" Column="52" />
+      <File FileName="Assets/Scripts/World Scripts/Loadlevel.cs" Line="65" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/DamageCalculations.cs" Line="80" Column="1" />
+      <File FileName="Assets/Scripts/Player Scipts/OldShooting.cs" Line="54" Column="4" />
+      <File FileName="Assets/Scripts/Shooting1.cs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
