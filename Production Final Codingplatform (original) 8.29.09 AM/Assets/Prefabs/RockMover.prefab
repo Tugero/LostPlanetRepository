@@ -332,6 +332,7 @@ MonoBehaviour:
   sounds: {fileID: 1641920053}
   attack: {fileID: 8300000, guid: ff59445360351424d95cbc3b90fd0aaf, type: 3}
   isDead: 0
+  Enemy: {fileID: 2908591435676284173}
 --- !u!54 &2908591435676284208
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -601,6 +602,7 @@ MonoBehaviour:
   sounds: {fileID: 0}
   attack: {fileID: 0}
   isDead: 0
+  Enemy: {fileID: 0}
 --- !u!65 &2908591435676284180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1231,7 +1233,7 @@ NavMeshAgent:
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
-  m_AutoRepath: 1
+  m_AutoRepath: 0
   m_Height: 0.11
   m_BaseOffset: 0
   m_WalkableMask: 4294967295

@@ -15,6 +15,7 @@ public class MeleeAttack : MonoBehaviour
             Enemy.SetInteger("Anime State", 1);
             }
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (Enemy != null)
@@ -22,5 +23,9 @@ public class MeleeAttack : MonoBehaviour
             {
                 Enemy.SetInteger("Anime State", 2);
             }
+    }
+    public void stop()
+    {
+        Enemy.SetInteger("Anime State", 0);
     }
 }

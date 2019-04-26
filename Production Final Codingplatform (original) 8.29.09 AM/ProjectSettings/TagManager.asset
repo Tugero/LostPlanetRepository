@@ -15,6 +15,7 @@ TagManager:
   - GUN2
   - Knockback
   - Lava
+  - Shots
   layers:
   - Default
   - TransparentFX

@@ -218,6 +218,7 @@ MonoBehaviour:
   sounds: {fileID: 0}
   attack: {fileID: 0}
   isDead: 0
+  Enemy: {fileID: 0}
 --- !u!135 &3861970135204615824
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1066,6 +1067,7 @@ MonoBehaviour:
   sounds: {fileID: 1464788997}
   attack: {fileID: 8300000, guid: 50bf6b803fbca405aaf97f279e96b06f, type: 3}
   isDead: 0
+  Enemy: {fileID: 0}
 --- !u!136 &6234418902919698378
 CapsuleCollider:
   m_ObjectHideFlags: 0

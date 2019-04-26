@@ -33,11 +33,14 @@ public class ProjectileMover : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        rb.useGravity = true;
-        rb.AddForce(new Vector3(0, 0, 0));
-        impact = true;
-        harmless.enabled = false;
-        Destroy(gameObject, 5.0f);
+        if (collision.rigidbody.tag != "Shots")
+        {
+            rb.useGravity = true;
+            rb.AddForce(new Vector3(0, 0, 0));
+            impact = true;
+            harmless.enabled = false;
+            Destroy(gameObject, 5.0f);
+        }
     }
 }
 

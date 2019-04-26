@@ -28,13 +28,13 @@ public class MeleeHurt : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            player.GetComponent<DamageCalculations>().TakeDamage(DMG);
             if (gameObject.CompareTag("Knockback"))
             {
                 knockback = player.transform.position-transform.position;
                 //Debug.Log("Test!");
                 player.GetComponent<PlayerMover>().KnockBack(knockback);
             }
-            player.GetComponent<DamageCalculations>().TakeDamage(DMG);
         }
         if (gameObject.tag == "Player")
         {

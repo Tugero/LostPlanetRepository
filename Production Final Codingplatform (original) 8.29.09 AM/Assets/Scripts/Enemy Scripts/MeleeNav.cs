@@ -29,6 +29,7 @@ public class MeleeNav : MonoBehaviour
         }*/
         isFlipped = false;
         attack = false;
+        _NaveMeshAgent = gameObject.GetComponent<NavMeshAgent>();
         Player =GameObject.FindWithTag("Player");
         //Enemy = GetComponent<Animator>();
     }
@@ -45,6 +46,7 @@ public class MeleeNav : MonoBehaviour
                 Eyes.SetActive(true);
         }
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
@@ -116,7 +118,9 @@ public class MeleeNav : MonoBehaviour
         Sounds.Stop();
         if (Eyes != null)
             Eyes.SetActive(false);
+        if (_NaveMeshAgent != null)
         _NaveMeshAgent.SetDestination(transform.position);
         Player.GetComponent<DamageCalculations>().isDead = false;
+        Enemy.SetInteger("Anime State", 0);
     }
 }

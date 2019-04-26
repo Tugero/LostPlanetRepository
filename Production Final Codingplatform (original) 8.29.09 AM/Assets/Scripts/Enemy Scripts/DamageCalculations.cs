@@ -14,6 +14,7 @@ public class DamageCalculations : MonoBehaviour
     public AudioSource sounds;
     public AudioClip attack;
     public bool isDead = false;
+    public GameObject Enemy;
 
     void Start()
     { 
@@ -21,6 +22,7 @@ public class DamageCalculations : MonoBehaviour
         isFlipped = false;
         player = GameObject.Find("Player");
         PlayerSpawn = player.transform.position;
+        Enemy = GameObject.FindWithTag("Enemy");
     }
     public void AttackSound()
     {
@@ -36,8 +38,7 @@ public class DamageCalculations : MonoBehaviour
             Debug.Log("" + CHP);
             if (CHP <= 0)
             {
-                Death();
-                
+                Death();  
             }
         }
         if (gameObject.tag == "Vines")
@@ -70,6 +71,7 @@ public class DamageCalculations : MonoBehaviour
                 CHP = MHP;
                 player.GetComponent<PlayerMover>().Player.SetInteger("Move",0);
                 isDead = true;
+                Enemy.GetComponent<MeleeAttack>().stop();
             }
         }
     }
@@ -85,7 +87,8 @@ public class DamageCalculations : MonoBehaviour
         if (gameObject.tag == "Player")
         {
             SceneManager.LoadScene(3);
-            Screen.lockCursor = false;
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
             Debug.Log(gameObject);
             Debug.Log("Was Killed!");
             //Destroy(gameObject);
