@@ -203,6 +203,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4014260}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &224877474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1457443798974621346, guid: 71e0421d011b64982a38f449b7886fc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 534415903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &316982438
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +683,13 @@ MonoBehaviour:
   attack: {fileID: 0}
   isDead: 0
   Enemy: {fileID: 0}
+  HealthPanel: {fileID: 0}
+  HP100: {fileID: 0}
+  HP90: {fileID: 0}
+  HP75: {fileID: 0}
+  HP50: {fileID: 0}
+  HP25: {fileID: 0}
+  HP0: {fileID: 0}
 --- !u!1 &679777563
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,6 +782,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679777563}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &733473104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6997088555809174724, guid: 71e0421d011b64982a38f449b7886fc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 534415903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &754316027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,11 +1071,23 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5496e3a5c03c84b13b13d041095696bc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abd5bd0f35a004305b5eda1fb639174c, type: 3}
+--- !u!1 &916886923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6347816832159128157, guid: 71e0421d011b64982a38f449b7886fc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 534415903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &917040266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3861970135204615825, guid: b5499aeae0f734e328d1fdd0c7849ff1,
     type: 3}
   m_PrefabInstance: {fileID: 3861970135516527131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1005818383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3147206543769275532, guid: 71e0421d011b64982a38f449b7886fc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 534415903}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1059235095
 PrefabInstance:
@@ -1282,6 +1313,18 @@ Transform:
   m_Father: {fileID: 1095507284}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1241487238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8616029104415200966, guid: 71e0421d011b64982a38f449b7886fc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 534415903}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1256010934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4768821898470345039, guid: 71e0421d011b64982a38f449b7886fc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 534415903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1256728199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1381,6 +1424,13 @@ MonoBehaviour:
   attack: {fileID: 0}
   isDead: 0
   Enemy: {fileID: 0}
+  HealthPanel: {fileID: 0}
+  HP100: {fileID: 0}
+  HP90: {fileID: 0}
+  HP75: {fileID: 0}
+  HP50: {fileID: 0}
+  HP25: {fileID: 0}
+  HP0: {fileID: 0}
 --- !u!136 &1327791655
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1869,6 +1919,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400214, guid: abd5bd0f35a004305b5eda1fb639174c,
     type: 3}
   m_PrefabInstance: {fileID: 1515347222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1828694019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1962488525710967488, guid: 71e0421d011b64982a38f449b7886fc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 534415903}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1904147429
 GameObject:
@@ -3068,6 +3124,41 @@ PrefabInstance:
       propertyPath: FuelGage
       value: 
       objectReference: {fileID: 2054552646}
+    - target: {fileID: 4397944860950401576, guid: fae165873dc624d7d988f0d1b633553e,
+        type: 3}
+      propertyPath: HealthPanel
+      value: 
+      objectReference: {fileID: 733473104}
+    - target: {fileID: 4397944860950401576, guid: fae165873dc624d7d988f0d1b633553e,
+        type: 3}
+      propertyPath: HP100
+      value: 
+      objectReference: {fileID: 1256010934}
+    - target: {fileID: 4397944860950401576, guid: fae165873dc624d7d988f0d1b633553e,
+        type: 3}
+      propertyPath: HP90
+      value: 
+      objectReference: {fileID: 1241487238}
+    - target: {fileID: 4397944860950401576, guid: fae165873dc624d7d988f0d1b633553e,
+        type: 3}
+      propertyPath: HP75
+      value: 
+      objectReference: {fileID: 224877474}
+    - target: {fileID: 4397944860950401576, guid: fae165873dc624d7d988f0d1b633553e,
+        type: 3}
+      propertyPath: HP50
+      value: 
+      objectReference: {fileID: 1828694019}
+    - target: {fileID: 4397944860950401576, guid: fae165873dc624d7d988f0d1b633553e,
+        type: 3}
+      propertyPath: HP25
+      value: 
+      objectReference: {fileID: 1005818383}
+    - target: {fileID: 4397944860950401576, guid: fae165873dc624d7d988f0d1b633553e,
+        type: 3}
+      propertyPath: HP0
+      value: 
+      objectReference: {fileID: 916886923}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fae165873dc624d7d988f0d1b633553e, type: 3}
 --- !u!4 &6718620446230607893 stripped

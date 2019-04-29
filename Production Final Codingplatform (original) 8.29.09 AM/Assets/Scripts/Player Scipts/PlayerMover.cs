@@ -154,6 +154,7 @@ public class PlayerMover : MonoBehaviour
             hasParashute = true;
             //SceneManager.LoadScene(4);
             //Screen.lockCursor = false;
+            if (other != null)
             other.GetComponent<DialogueTrigger>().TriggerDialogue();
 
         }
@@ -181,6 +182,8 @@ public class PlayerMover : MonoBehaviour
         if (other.gameObject.CompareTag("Finish"))
         {
             SceneManager.LoadScene(4);
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
         }
     }
 

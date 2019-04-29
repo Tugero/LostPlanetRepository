@@ -23,6 +23,8 @@ public class Loadlevel : MonoBehaviour
     }
     public void Win()
     {
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
         SceneManager.LoadScene(4);
     }
     public void Lose()

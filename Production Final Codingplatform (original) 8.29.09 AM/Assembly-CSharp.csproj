@@ -69,11 +69,13 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\DamageCalculations.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\DamageCalculations123.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Exploder.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\GasExplosion.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\MeleeAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\MeleeHurt.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\MeleeNav.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\ParentKiller.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\ProjectileMover.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\RangedNav.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\ShotSpawner.cs" />
@@ -91,6 +93,7 @@
     <Compile Include="Assets\Scripts\World Scripts\LevelTransition.cs" />
     <Compile Include="Assets\Scripts\World Scripts\Loadlevel.cs" />
     <Compile Include="Assets\Scripts\World Scripts\PowerUpRotator.cs" />
+    <Compile Include="Assets\Scripts\World Scripts\RandomText.cs" />
     <None Include="Assets\Ui\Text\moon_flower\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/Dan.C/Unity Projects/LostPlanetRepository/Production Final Codingplatform (original) 8.29.09 AM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

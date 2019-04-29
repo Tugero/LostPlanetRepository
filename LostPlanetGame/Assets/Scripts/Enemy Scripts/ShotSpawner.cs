@@ -1,0 +1,17 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ShotSpawner : MonoBehaviour
+{
+    public GameObject shot;
+    public Transform launcher;
+    public AudioSource Sounds;
+    public AudioClip Clip;
+    void Fire()
+    {
+        Instantiate(shot, launcher.position, launcher.rotation);
+        Sounds.clip = Clip;
+        Sounds.Play();
+    }
+}

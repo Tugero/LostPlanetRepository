@@ -50,7 +50,7 @@ MonoBehaviour:
   fpsCam: {fileID: 4397944860005902772}
   bulletSpawn: {fileID: 664979016}
   upgrade1: 0
-  hasBeamGun: 0
+  hasBeamGun: 1
   hasHarpoonGun: 0
   Vines: {fileID: 0}
   GunEffect: {fileID: 6718620444370636697}
@@ -59,7 +59,9 @@ MonoBehaviour:
   Laser: {fileID: 8300000, guid: 0ebd2482291f74a0dbdc206a4d2043e0, type: 3}
   time: 0
   Gun1: {fileID: 3946656721508266346}
+  Gun1Icon: {fileID: 0}
   Gun2: {fileID: 2012309945}
+  Gun2Icon: {fileID: 0}
   Gun3: {fileID: 0}
 --- !u!120 &664979017
 LineRenderer:
@@ -466,7 +468,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -908,7 +910,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 825377c01640448aa84b3f9e41f745c6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f2d8844ff1f8e47a5a87543a27bc2da4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.758
   m_Pitch: 1
@@ -1339,6 +1341,14 @@ MonoBehaviour:
   sounds: {fileID: 0}
   attack: {fileID: 0}
   isDead: 0
+  Enemy: {fileID: 0}
+  HealthPanel: {fileID: 0}
+  HP100: {fileID: 0}
+  HP90: {fileID: 0}
+  HP75: {fileID: 0}
+  HP50: {fileID: 0}
+  HP25: {fileID: 0}
+  HP0: {fileID: 0}
 --- !u!114 &4397944860950401578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1374,7 +1384,7 @@ MonoBehaviour:
   Sounder: {fileID: 4397944860442766637}
   Jump: {fileID: 8300000, guid: c60c8cdd611204da29b3b6930e85a079, type: 3}
   Step: {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
-  shoe: {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
+  shoe: {fileID: 8300000, guid: 5153a1f7162f04ad49c7c37d4c0004fa, type: 3}
   foot: {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
   Shute: {fileID: 550465470793273835}
   Jetpack: {fileID: 6718620445803139639}
@@ -1491,26 +1501,7 @@ MonoBehaviour:
   dialogue:
     name: Maux Roxx
     sentences:
-    - 'Hello, alien. I saw you crash down here from space, you are lucky to be alive.
-      I am Maux Roxx, adventurer. '
-    - Unfortunately, you've landed on a very dangerous planet. My species has been
-      wipped out, and only I remain. Dangerous monsters rule the land now!
-    - Your spaceship broke up in the crash and many of its parts were scattered around
-      the planet. If you want to get home you'll have to find them.
-    - We are a very intelligent race, I can easily rebuild it for you if you bring
-      me the parts. Exploring this planet will be no simple task, however.
-    - "There are many technologies lost here from my now remnant civilization.\r You
-      can use them to help with your exploration."
-    - There's a parachute I lost in this jungle recently. Find it and use it to float
-      down into the deep abyss. I'm sure there are many parts that have been swallowed
-      up down there over the millenia.
-    - There is a hole that leads there, but you must cut these vines to get there.
-      Those pesky vegetables are waging war, and stole my sickle the other day.
-    - Find it and it should be able to cut the vines for you. I wouldn't jump down
-      there without my parachute though, you better find that first.
-    - I upgraded that little toy gun of yours, it can be used to slaughter the monsters
-      around here.
-    - '*Click the Left Mouse Button to Shoot*'
+    - Go to the ship to win the game!
     image: {fileID: 21300000, guid: 354337c25aeef46acad84802dfcde654, type: 3}
 --- !u!1 &4397944860442766612
 GameObject:

@@ -28,7 +28,9 @@ public class Shooting : MonoBehaviour
     private float shootDelay;
     private bool onCool;
     public GameObject Gun1;
+    public GameObject Gun1Icon;
     public GameObject Gun2;
+    public GameObject Gun2Icon;
     public GameObject Gun3;
 
 
@@ -150,7 +152,9 @@ public class Shooting : MonoBehaviour
         {
             upgrade1 = 1;
             Gun1.SetActive(false);
+            Gun1Icon.SetActive(false);
             Gun2.SetActive(true);
+            Gun2Icon.SetActive(true);
             Gun3.SetActive(false);
         }
         else if (upgrade1 == 0 && hasBeamGun == false && hasHarpoonGun == true)
@@ -171,7 +175,10 @@ public class Shooting : MonoBehaviour
         {
             upgrade1 = 0;
             Gun1.SetActive(true);
+            Gun1Icon.SetActive(true);
+            GunEffect.Stop();
             Gun2.SetActive(false);
+            Gun2Icon.SetActive(false);
             Gun3.SetActive(false);
 
         }
@@ -179,7 +186,9 @@ public class Shooting : MonoBehaviour
         {
             upgrade1 = 0;
             Gun1.SetActive(true);
+            Gun1Icon.SetActive(true);
             Gun2.SetActive(false);
+            Gun2Icon.SetActive(false);
             Gun3.SetActive(false);
         }
 
@@ -196,6 +205,7 @@ public class Shooting : MonoBehaviour
         if (target != null)
         {
             target.TakeDamage(BeamDPS);
+            target.ChangeGravity();
         }
         damageProcessing = false;
 
