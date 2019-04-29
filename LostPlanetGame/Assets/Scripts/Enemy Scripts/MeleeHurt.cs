@@ -12,7 +12,7 @@ public class MeleeHurt : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindWithTag("Player");
+        player = GameObject.Find("Player");
         health = player.GetComponent<DamageCalculations>().CHP;
         PlayerRB = player.GetComponent<PlayerMover>().rb3D;
     }

@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-/Users/Dan.C/Desktop/FinalTestBuild2/Production Final Codingplatform.exe
+/Users/Dan.C/Desktop/CanThisBeOurTeamName/LostPlanet.exe
 SceneListBegin?
 Assets/Scenes/Main.unity
 Assets/Scenes/Controls.unity
